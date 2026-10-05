@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-maroon: #830000;
+  --color-maroon-dark: #5C0000;
+  --color-maroon-light: #9C1414;
+  --color-orange: #F4512D;
+  --color-orange-hover: #E03E19;
+  --color-orange-subtle: #FFF2EE;
+  
+  --color-cream: #F7F4EF;
+  --color-cream-surface: #EFEAE2;
+  --color-cream-card: #FFFFFF;
+  
+  --color-ink: #171313;
+  --color-ink-muted: #68615D;
+  --color-border-subtle: #DED8D2;
+  --color-border-dark: #C6BEB6;
+
+  --font-serif: "Newsreader", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+  font-family: var(--font-sans);
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Editorial display typography */
+.font-editorial-serif {
+  font-family: var(--font-serif);
+  font-feature-settings: "kern", "liga", "onum";
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Hairline borders */
+.border-hairline {
+  border-color: var(--color-border-subtle);
+}
+
+/* Drop cap for longform reads */
+.editorial-drop-cap::first-letter {
+  font-family: var(--font-serif);
+  font-size: 3.5rem;
+  line-height: 0.85;
+  float: left;
+  margin-right: 0.75rem;
+  margin-top: 0.15rem;
+  color: var(--color-maroon);
+  font-weight: 600;
+}

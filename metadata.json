@@ -1,0 +1,7 @@
+{
+  "name": "1847 Liberty",
+  "description": "Modern Liberian media and public-discourse platform covering the people, ideas, culture, and conversations shaping Liberia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

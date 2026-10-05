@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- 1847 Liberty Brand Icon & Motif -->
+  <rect width="512" height="512" rx="96" fill="#830000" />
+  
+  <!-- Stylized Rising Sun / Torch Core -->
+  <!-- Torch Base / Horizon Bar -->
+  <rect x="136" y="356" width="240" height="24" rx="4" fill="#FFFFFF" />
+  <rect x="180" y="392" width="152" height="14" rx="3" fill="#F4512D" />
+
+  <!-- Torch Handle / Pillar -->
+  <path d="M228 356 L238 276 H274 L284 356 Z" fill="#FFFFFF" />
+
+  <!-- Sun Rays / Torch Radiance -->
+  <!-- Center Flame / Prime Ray -->
+  <path d="M256 100 L274 246 H238 Z" fill="#F4512D" />
+  <circle cx="256" cy="180" r="16" fill="#FFFFFF" />
+
+  <!-- Diagonal Rays Left -->
+  <path d="M214 248 L152 144 L168 134 L224 244 Z" fill="#FFFFFF" />
+  <path d="M200 258 L112 208 L122 192 L208 252 Z" fill="#F4512D" opacity="0.95" />
+
+  <!-- Diagonal Rays Right -->
+  <path d="M298 248 L360 144 L344 134 L288 244 Z" fill="#FFFFFF" />
+  <path d="M312 258 L400 208 L390 192 L304 252 Z" fill="#F4512D" opacity="0.95" />
+
+  <!-- Rising Sun Arc Crest -->
+  <path d="M192 270 Q256 220 320 270" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" fill="none" />
+</svg>

@@ -1,0 +1,21 @@
+{
+  "id": "/",
+  "name": "1847 Liberty",
+  "short_name": "1847Liberty",
+  "description": "Modern Liberian media and public-discourse platform covering people, ideas, culture, and conversations.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F7F4EF",
+  "theme_color": "#830000",
+  "categories": ["news", "education", "magazines"],
+  "icons": [
+    {
+      "src": "/logo-icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
